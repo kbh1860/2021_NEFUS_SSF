@@ -118,7 +118,7 @@ if __name__ == '__main__':
     s2 = Sticker('./amongus/orange.gif', xy=[1200, 1020], size=0.3, on_top=True)
 
 
-    s3 = Sticker('./gif/amongus/blue_green.gif', xy=[400, 920], size=1.0, on_top=True)
+    s3 = Sticker('./amongus/blue_green.gif', xy=[400, 920], size=1.0, on_top=True)
 
     s4 = Sticker('./amongus/mint.gif', xy=[1000, 950], size=0.2, on_top=True)
     s4.walk_diff(from_xy_diff=[-100, 0], to_xy_diff=[100, 0], speed=120)
