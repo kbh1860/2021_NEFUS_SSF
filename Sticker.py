@@ -111,7 +111,7 @@ class Sticker(QtWidgets.QMainWindow):
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
 
-    s = Sticker('gif/left.gif', xy=[-80, 200], on_top=False)
+    s = Sticker('gif/amongus/left.gif', xy=[-80, 200], on_top=False)
 
     s1 = Sticker('gif/amongus/red_vent.gif', xy=[780, 1020], size=0.3, on_top=True)
 
